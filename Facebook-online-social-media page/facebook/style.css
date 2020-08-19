@@ -1,0 +1,189 @@
+body{
+    color: none;
+    background: none;
+    font-size: none;
+    font-family: none;
+}
+
+h1{
+    padding-top: 35px;
+}
+h2{
+    padding-top: 30px;
+}
+h3{
+    padding-top: 25px;
+}
+h4{
+    padding-top: 55px;
+}
+h5{
+    padding-top: 26px;
+}
+h6{
+    padding-top: 10px;
+}
+
+/* header sex */
+.header{
+    padding-left: 200px;
+    color: #ffffff;
+    background: #46629E;
+}
+.header1{
+    padding-left: 100px;
+}
+.header2{
+    margin-top: 16px;
+}
+
+.sub-content1{
+    font-size: 14px;
+    margin-left: 30px;
+    line-height: normal;
+}
+.sub-content1 input{
+    width: 125px;
+    height: auto;
+}
+.sub-content1 p{
+    margin-bottom: 5px;
+}
+
+.sub-content2{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: -50px;
+    line-height: normal;
+}
+.sub-content2 input{
+    width: 125px;
+    height: auto;
+}
+.sub-content2 button{
+    width: 55px;
+    height: 24px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    background: #46629E;
+    border: 1px solid #46629E;
+    
+}
+.sub-content2 a{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 0px;
+    line-height: normal;
+}
+.sub-content2 p{
+    margin-bottom: 5px;
+}
+
+/***** login or input sex *****/
+.formfill{
+    padding-left: 200px;
+    background-color: lightsteelblue;
+}
+
+.form-content input{
+    margin-bottom: 10px;
+}
+.birthday span{
+    border: 1px solid #ffffff;
+    color: darkblue;
+    background: #ffffff;
+    padding: 5px;
+    
+}
+.gender-content b{
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.gender-policy p{
+    color: none;
+    font-size: 10px;
+}
+
+.gender-policy button{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.languagee1{
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 5px;
+    border-bottom: 1px solid #000000;
+}
+.languagee1 i{
+    padding: 1px;
+    border: 1px solid #000000;
+    
+}
+.languagee{
+    font-size: 16px;
+    line-height: 14px;
+}
+
+/****** home page ******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
