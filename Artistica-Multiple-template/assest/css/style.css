@@ -1,0 +1,255 @@
+
+/* ---------------------------
+
+Name: style.css
+Version: 1.0
+
+-------------------------------*/
+/*-----------------------------------------
+
+Table of contents Home page
+
+    01. Ganeral css
+    02. About section
+    03. Expertice section
+    04. Portfolio section
+    05. Blog section
+    06. Contact section
+
+Table of contents Blog Single page
+    
+    1.Blog left content
+    2.Blog right content
+
+-------------------------------------------*/
+
+/*--General css ---*/
+
+
+/*--about section ---*/
+.about h1{
+    font-size: 60px;
+}
+.about span{
+    color: #ffc000;
+}
+.about p{
+    line-height: 30px;
+}
+
+/*--expertise section ---*/
+.experience{
+    background-image: linear-gradient(to right, #fa2339, #fb3f35, #fb5231, #fa632f, #f9722f);
+}
+.experience h2{
+    font-size: 46px;
+    color: #ffffff;
+}
+.expart-single{
+    position: relative;
+}
+.expart-single p:after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background: #fff;
+    left: 50%;
+    top: 80%;
+}
+.button-group button{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*--portfolio section ---*/
+.grid-item {
+  float: left;
+  width: 16.66666%;
+  height: auto;
+    position: relative;
+}
+.grid-sizer{
+    width: 16.66666%;
+}
+.grid-item--width2 {
+    width: 33.33333%;
+}
+.masonry-overlay{
+    position: absolute;
+    background: rgba(57,57,57,.7);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .0;
+    transition: .7s;
+    transform: scale(1);
+}
+.grid-item:hover .masonry-overlay{
+    opacity: 1;
+    transform: scale(.9);
+}
+.masonry-overlay i{
+    font-size: 50px;
+}
+
+/*--blog section ---*/
+.blog-single {
+  float: left;
+  width: 33.33333%;
+  height: auto;
+}
+.blog-sizer{
+    width: 33.33333%;
+}
+
+/*--contact section ---*/
+.contact-lay i{
+    color: #bcbcbc;
+    border: 1px solid #bcbcbc;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    transition: .7s;
+}
+.contact-lay:hover i{
+    color: #fc843d;
+    border: 1px solid #fc843d;
+}
+.contact{
+    position: relative;
+}
+#shoe-01,#shoe-02,#shoe-03,#shoe-04,#shoe-05,#shoe-06{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+#shoe-01{
+    background: url(../images/p1.png);
+}
+#shoe-02{
+    background: url(../images/p2.png);
+}
+#shoe-03{
+    background: url(../images/p3.png);
+}
+#shoe-04{
+    background: url(../images/p4.png);
+}
+#shoe-05{
+    background: url(../images/p5.png);
+}
+#shoe-06{
+    background: url(../images/p6.png);
+}
+
+
+/*-----------------------------
+           1. blog left content
+        -----------------------------*/
+
+.blog-text h2{
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "playfair Display", serif;
+}
+.blog-text span{
+    font-size: 46px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.blockquote .fa-quote-right{
+    margin-top: -65px;
+    color: #e0dfdf;
+    font-size: 50px;
+}
+.love{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    border: .5px solid #000;
+    background: #fff;
+    padding: 10px;
+}
+
+.red-line1{
+    width: 50px;
+    border: .5px solid #ff6a68;
+    margin-top: 15px;
+}
+.red-line2{
+    width: 50px;
+    border: .5px solid #ff6a68;
+    margin-top: 15px;
+}
+
+/*-----------------------------
+           2. blog right content
+        -----------------------------*/
+
+.post-content-img{
+    position: relative;
+}
+.post-content-img-lay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(220,77,65,.7);
+    
+    opacity: 0;
+    transition: .7s;
+    /* transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1); */
+}
+.post-content-img:hover .post-content-img-lay{
+    opacity: 1;
+    /* transform: scale();
+    -webkit-transform: scale();
+    -moz-transform: scale();
+    -ms-transform: scale();
+    -o-transform: scale(); */
+}
+.popular-content-img{
+    position: relative;
+}
+.popular-content-img-lay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(220,77,65,.7);
+    left: 0;
+    top: 0;
+    
+    opacity: 0;
+    transition: .7s;
+    /* transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1); */
+}
+.popular-content-img:hover .popular-content-img-lay{
+    opacity: 1;
+    /* transform: scale();
+    -webkit-transform: scale();
+    -moz-transform: scale();
+    -ms-transform: scale();
+    -o-transform: scale(); */
+}
+
+.media-hidden{
+    display: none;
+}
+
+

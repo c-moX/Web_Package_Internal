@@ -1,0 +1,61 @@
+
+             <!------web design class: 04------>
+
+body{
+    background: gray;
+    
+}
+.class-04{
+    padding-top: 20px;
+    position: relative;
+    }
+.class-04 img{
+    position: absolute;
+    z-index: -1;
+    height: 400px;
+    width: 1110px;
+}
+.class-04 h1{
+    text-align: center;    
+    font-size: 100px;
+    color: red;
+    text-shadow: 5px 5px black;
+}
+.class-04 h3{
+    text-align: center;
+    color: red;
+}
+.class-04 p{
+    color: black;
+    font-size: 20px;
+    padding-left: 350px;
+}
+.class-04{
+    transition: .5s;
+}
+.class-04:hover{
+    transform: rotate(360deg);
+    transform: skewx(30deg);
+    transform: scale(1.2);
+    transform: translatey(50px);
+}
+.contact-me{
+    text-align: center;
+    padding-top: 10px;
+}
+.motion-3d h1{   
+}
+.border{
+    border: 1px solid #dee2e6!important;
+    padding: 10px;
+}
+.xbokx{
+    text-align: center;
+}
+.paer-pata{
+    text-align: center;
+    padding: 50px;
+    background: #616161;
+    border: 1px solid black;
+    color: white;
+}
